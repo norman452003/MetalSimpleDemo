@@ -17,6 +17,7 @@
 		E47EE531280275AB00369571 /* MetalDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47EE530280275AB00369571 /* MetalDemoTests.m */; };
 		E47EE53B280275AB00369571 /* MetalDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47EE53A280275AB00369571 /* MetalDemoUITests.m */; };
 		E47EE53D280275AB00369571 /* MetalDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E47EE53C280275AB00369571 /* MetalDemoUITestsLaunchTests.m */; };
+		E47EE54B280275E500369571 /* KSRender.m in Sources */ = {isa = PBXBuildFile; fileRef = E47EE54A280275E500369571 /* KSRender.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E47EE536280275AB00369571 /* MetalDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47EE53A280275AB00369571 /* MetalDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalDemoUITests.m; sourceTree = "<group>"; };
 		E47EE53C280275AB00369571 /* MetalDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E47EE549280275E500369571 /* KSRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSRender.h; sourceTree = "<group>"; };
+		E47EE54A280275E500369571 /* KSRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSRender.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E47EE518280275A900369571 /* SceneDelegate.m */,
 				E47EE51A280275A900369571 /* ViewController.h */,
 				E47EE51B280275A900369571 /* ViewController.m */,
+				E47EE549280275E500369571 /* KSRender.h */,
+				E47EE54A280275E500369571 /* KSRender.m */,
 				E47EE51D280275A900369571 /* Main.storyboard */,
 				E47EE520280275AA00369571 /* Assets.xcassets */,
 				E47EE522280275AA00369571 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47EE51C280275A900369571 /* ViewController.m in Sources */,
+				E47EE54B280275E500369571 /* KSRender.m in Sources */,
 				E47EE516280275A900369571 /* AppDelegate.m in Sources */,
 				E47EE527280275AA00369571 /* main.m in Sources */,
 				E47EE519280275A900369571 /* SceneDelegate.m in Sources */,
@@ -444,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKPVV7NQH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MetalDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,6 +458,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKPVV7NQH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MetalDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -477,6 +486,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
