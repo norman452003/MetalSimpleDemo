@@ -23,12 +23,12 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.mtkView];
+    [self.render mtkView:self.mtkView drawableSizeWillChange:self.mtkView.drawableSize];
 }
 
 - (MTKView *)mtkView {
     if (_mtkView == nil) {
         _mtkView = [[MTKView alloc] initWithFrame:self.view.frame device:MTLCreateSystemDefaultDevice()];
-        _mtkView.preferredFramesPerSecond = 1;
         _render = [[KSRender alloc] initWithMTKView:_mtkView];
         _mtkView.delegate = _render;
     }
